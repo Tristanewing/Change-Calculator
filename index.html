@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Change Calculator</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- endinject -->
+</head>
+
+<body>
+
+
+<div id="background">
+	
+
+</div>
+
+
+
+
+<div class="wrapper">
+    <div class="line"></div>
+    <div class="circle-2">
+        
+    </div>
+    <div class="circle">
+    <button id="button" name="Click and find out"="btn btn-primary">Calculate</button>
+        
+    </div>
+</div>
+
+</div>
+
+<div>
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+
+
+
+<div class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>CHANGE CALCULATOR</legend>
+<div>
+	
+<h1>Let the calculator do it for you!</h1>
+
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">How much is due for sale?</label>  
+  <div class="col-md-4">
+  <input id="due" name="textinput" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">help</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="">How much has the costumer given you?</label>  
+  <div class="col-md-4">
+  <input id="given" name="" type="text" placeholder="" class="form-control input-md">
+  <span class="help-block">help</span>  
+  </div>
+</div>
+
+
+<div class="money">
+
+<div>
+<Label>Dollars</Label>
+<span id="dollars"></span>
+</div>
+
+<div>
+<label>Quarters</label>
+<span id= "quarters"></span>
+</div>
+
+<div>
+<label>Dimes</label>
+<span id= "dimes"></span>
+</div>
+
+<div>
+<label>Nickles</label>
+<span id= "nickles"></span>
+</div>
+
+<div>
+<label>Pennies</label>
+<span id= "pennies"></span>
+</div>
+
+</div>
+
+
+</fieldset>
+</div>
+
+
+<!-- inject:js -->
+<script src="/app/index.js"></script>
+<!-- endinject -->
+</body>
+</html>
